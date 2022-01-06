@@ -1,0 +1,25 @@
+{
+  "name": "bottlesforbales",
+  "version": "1.0.0",
+  "description": "A website for Ed Gardners Bottles for Bales organization.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greensourcecode/bottlesforbales.git"
+  },
+  "author": "Mitchell Falvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greensourcecode/bottlesforbales/issues"
+  },
+  "homepage": "https://github.com/greensourcecode/bottlesforbales#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
