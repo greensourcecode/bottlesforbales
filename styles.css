@@ -1,0 +1,6 @@
+:root {
+    --first-color: #272727;         /*  Call with background-color: var(--first-color);  */
+    --second-color: #ff7;
+    --third-color: #16f;
+  }
+  
