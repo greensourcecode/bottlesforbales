@@ -1,23 +1,98 @@
 <!DOCTYPE html>
 <html>
-
 <script src="scripts.js"></script>
+<!--------------------------------------------------------------------------------------------------------------------->
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="description" content="What shows up in Google">
-    <meta name="keywords" content="Bottles, Bales, Horse Sanctuary, Horse Rescue">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="What shows up in Google" />
+    <meta name="keywords" content="Bottles, Bales, Horse Sanctuary, Horse Rescue" />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center font-italic">Bottles For Bales</h1>
+                <p class="text-center">Carousel Here</p>                                                                     <!-- ! TODO -->
+            </div>
+        </div>
+    </div>
 </head>
+<!--------------------------------------------------------------------------------------------------------------------->
 
 <body>
+    <div class="container">                                                         <!-- ! Make wider TODO           -->
+        <div class="row">
+            <div class="col">
+                <h4 class="text-center">Welcome to Bottles for Bales!!</h4>         <!-- ! Can't Italicize TODO      -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
-
-
+    <div class="container">
+        <div class="row">
+            <div class="col ">
+                <p>Sign me up!! (form here)</p>
+            </div>
+        </div>
+    </div>
 </body>
+<!--------------------------------------------------------------------------------------------------------------------->
+<footer>                                                <!-- ! Make footer take up 100% width                        -->
+    <div class="container">                                 
+        <div class="row">
+            <div class="col ">
+                <p>Footer Container</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--------------------------------------------------------------------------------------------------------------------->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+    Test Modal                                        <!-- ! Must pop up on website launch TODO                      -->
+</button>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title " id="myModalLabel">Oh Hay.</h5> <!-- ! Can't Center!! TODO                   -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/twoHorses.jpg" class="img-fluid" alt="Responsive image">
+                <p class="text-center">Would you mind donating your recyclable bottles for our hay?</p>
+            </div>
+            <div class="modal-footer">                                  <!-- ! Center these buttons TODO             -->
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button>
+                <button type="button" class="btn btn-secondary">Who are you guys?</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+
 
 </html>

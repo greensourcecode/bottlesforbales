@@ -1,6 +1,22 @@
 :root {
-    --first-color: #272727;         /*  Call with background-color: var(--first-color);  */
-    --second-color: #ff7;
-    --third-color: #16f;
-  }
-  
+  --dark-brown: #5c4121;
+  --light-brown: #aa7e38;
+  --pinkish: #dbcccb;
+  --green: #c1c439;
+  --grey: #c1c4cd;
+    /**  Call with background-color: var(--first-color);  */
+}
+
+.container-fluid {
+  background-color: var(--light-brown);
+}
+
+body {                               /*! NOT WORKING TODO */
+  background-color: var(--light-brown);
+}
+
+.container {
+  color: var(--dark-brown);
+  background-color: var(--green);
+  border: solid var(--grey);
+}
