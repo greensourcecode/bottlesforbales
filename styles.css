@@ -2,21 +2,61 @@
   --dark-brown: #5c4121;
   --light-brown: #aa7e38;
   --pinkish: #dbcccb;
-  --green: #c1c439;
+  --green: #708a29;
   --grey: #c1c4cd;
     /**  Call with background-color: var(--first-color);  */
 }
 
-.container-fluid {
-  background-color: var(--light-brown);
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+
+@font-face {
+  font-family: 'Andada Pro', serif;
+  src: url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap'); /* ! TODO */
 }
 
-body {                               /*! NOT WORKING TODO */
+
+
+.container-fluid {
   background-color: var(--light-brown);
+  width: 97%;
+}
+
+.container-xl {
+  background-color: var(--dark-brown);
+}
+
+body {                               
+  background-color: var(--green);
+  font-family: 'Andada Pro', serif;
 }
 
 .container {
   color: var(--dark-brown);
   background-color: var(--green);
   border: solid var(--grey);
+  font-family: 'Andada Pro', serif;
+}
+
+#myModal2 {
+  background-color: darkkhaki;
+  color: var(--dark-brown);
+  border: solid var(--green);
+}
+
+#modalHeader {
+  text-align: center;
+  border-bottom: 0;
+  color: black;
+}
+
+#twoHorsesImg {
+  border: solid var(--green);
+}
+
+#modalFooter {
+  border-top: 0;
+}
+
+#carouselInner {
+  justify-content: center;
 }

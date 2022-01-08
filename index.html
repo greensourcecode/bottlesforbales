@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #708a29;">
 <script src="scripts.js"></script>
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -10,25 +10,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="What shows up in Google" />
     <meta name="keywords" content="Bottles, Bales, Horse Sanctuary, Horse Rescue" />
-    <div class="container-fluid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+    <div class="container-fluid mb-2 border-top border-bottom border-dark ">
         <div class="row">
             <div class="col">
-                <h1 class="text-center font-italic">Bottles For Bales</h1>
-                <p class="text-center">Carousel Here</p>                                                                     <!-- ! TODO -->
+                <h1 class="text-center fst-italic">Bottles For Bales</h1>
+                <div id="carouselExampleIndicators" class="carousel slide wrap mb-2 border border-dark border-3 rounded " data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" id="carouselInner">
+                      <div class="carousel-item active ">
+                        <img src="img/4.jpg" class="d-block w-25 h-25 " alt="..." id="carouselImage">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/2.jpg" class="d-block w-25 h-25 " alt="..." id="carouselImage">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/1.jpg" class="d-block w-25 h-25 " alt="..." id="carouselImage">
+                      </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" id="carouselImage">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" id="carouselImage">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>                                           <!-- ! TODO -->
             </div>
         </div>
     </div>
 </head>
 <!--------------------------------------------------------------------------------------------------------------------->
 
-<body>
-    <div class="container">                                                         <!-- ! Make wider TODO           -->
+<body style="background-color: #708a29;">
+    <div class="container-fluid mb-2 border border-dark rounded-3" style="width:97%;">                                                         <!-- ! Make wider TODO           -->
         <div class="row">
             <div class="col">
-                <h4 class="text-center">Welcome to Bottles for Bales!!</h4>         <!-- ! Can't Italicize TODO      -->
+                <h4 class="text-center fst-italic">Welcome to Bottles for Bales!!</h4>         
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -37,7 +66,7 @@
                     culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -48,8 +77,8 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid mb-2 border border-dark rounded-3" style="width:97%;">
+        <div class="row justify-content-center">
             <div class="col ">
                 <p>Sign me up!! (form here)</p>
             </div>
@@ -57,8 +86,8 @@
     </div>
 </body>
 <!--------------------------------------------------------------------------------------------------------------------->
-<footer>                                                <!-- ! Make footer take up 100% width                        -->
-    <div class="container">                                 
+<footer>                                              
+    <div class="container-fluid mb-2 border-top border-bottom border-dark">                                 
         <div class="row">
             <div class="col ">
                 <p>Footer Container</p>
@@ -75,17 +104,17 @@
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title " id="myModalLabel">Oh Hay.</h5> <!-- ! Can't Center!! TODO                   -->
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content" id="myModal2"> 
+            <div class="modal-header align-self-center pb-0 " id="modalHeader">
+                <h1 class="modal-title" id="myModalLabel">Oh Hay!</h1> <!-- ! Can't Center!! TODO                    -->
+                
             </div>
-            <div class="modal-body">
-                <img src="img/twoHorses.jpg" class="img-fluid" alt="Responsive image">
-                <p class="text-center">Would you mind donating your recyclable bottles for our hay?</p>
+            <div class="modal-body pb-0" id="modalBody">
+                <img src="img/twoHorses.jpg" class="img-fluid rounded-3" id="twoHorsesImg" alt="Responsive image">
+                <h3 class="text-center pt-3">Would you mind donating your recyclable bottles for our hay?</h3>
             </div>
-            <div class="modal-footer">                                  <!-- ! Center these buttons TODO             -->
-                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button>
+            <div class="modal-footer align-self-center" id="modalFooter">      <!-- ! Center these buttons TODO      -->
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button> 
                 <button type="button" class="btn btn-secondary">Who are you guys?</button>
             </div>
         </div>
