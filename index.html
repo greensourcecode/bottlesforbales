@@ -1,9 +1,10 @@
 <!DOCTYPE html>                                                                       <!-- * Property of Ed Gardner / Bottles for Bales ------------------->
 <html>                                                                                <!-- ? https://bottlesforbales.org ---------------------------------->
-<script src="scripts.js"></script>                                                    <!-- - Author: Mitchell Falvo; https://github.com/greensourcecode --->
+                                                    <!-- - Author: Mitchell Falvo; https://github.com/greensourcecode --->
 <!--? ----------------------------------------------------------------------------------------------------------------------------------------------------->
 <head >
     <meta charset="utf-8" />
+    
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />  <!-- TODO FONTS NOT WORKING ----------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Ed Gardner's Bottles for Bales organization raised over $15,000 for Little Brook Farm Horse Sanctuary in 2021."/>
     <meta name="keywords" content="Bottles, Bales, Horse Sanctuary, Horse Rescue" />
-
+    
     
     <div class="container-fluid mb-2 border-bottom border-dark border-2 bg-gradient opacity-75 bg-gradient" id="bcLightBrown" >                                 
         <div class="row">
@@ -68,51 +69,51 @@ style="
 
 <!-- Background image -->
 
-    <div class="container-fluid mb-2 border border-dark rounded-3 bg-gradient border-2 opacity-75" id="containerFluid">                                           
+    <div class="container-fluid mb-2 border border-dark rounded-3 bg-gradient border-2 opacity-75" id="containerFluid">
         <div class="row">
             <div class="col">
-                <h4 class="text-center fst-italic">Welcome to BottlesForBales.org</h4>         
+                <h4 class="text-center fst-italic">Welcome to BottlesForBales.org</h4>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col">                                                         <!-- * Explain Bottles for bales ------------------------------------>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  
+            <div class="col">
+                <!-- * Explain Bottles for bales ------------------------------------>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
             </div>
         </div>
     </div>
-
-    <div class="container-sm mb-2 border border-2 border-dark rounded-3 bg-gradient opacity-75" id="containerFluid">
-        <div class="row justify-content-center">
-            <div class="col ">
-                <h4 class="text-center fst-italic">Do you have bottles ready to be picked up now?</h4> 
-                <form>
-                    <div class="mb-2">
-                      <label for="exampleInputEmail1" class="form-label px-1"><strong>Name:</strong></label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-2">
-                      <label for="exampleInputPassword1" class="form-label px-1"><strong>Address:</strong></strong></label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-2">
-                        <label for="exampleInputEmail1" class="form-label px-1"><strong>Phone Number:</strong></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Please let me know when you are stopping by.</label>
-                    </div>
-                    <div class="mb-2">
-                        <button type="submit" class="btn btn-success">Submit</button>
-                        <div id="emailHelp" class="form-text">We'll never share your information with anyone else.</div>
-                    
-                    </div>
-                  </form>
-            </div>
+<div class="container-sm mb-2 border border-2 border-dark rounded-3 bg-gradient opacity-75" id="containerFluid">
+    <div class="row justify-content-center">
+        <div class="col ">
+            <h4 class="text-center fst-italic">Do you have bottles ready to be picked up now?</h4>
+            <form>
+                <div class="mb-2">
+                    <label for="exampleInputEmail1" class="form-label px-1"><strong>Name:</strong></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label px-1"> <strong>Address:</strong></label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-2">
+                    <label for="exampleInputEmail1" class="form-label px-1"><strong>Phone Number:</strong></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Please let me know when you are stopping by.</label>
+                </div>
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <div id="emailHelp" class="form-text">We'll never share your information with anyone else.</div>
+                </div>
+            </form>
         </div>
     </div>
 </body>
@@ -136,18 +137,18 @@ style="
 
 
 <!-- Modal -->
-<div class="modal fade border border-dark rounded-3" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal hide fade border border-dark rounded-3" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" id="greenBoarder">
         <div class="modal-content" id="bcKhaki"> 
             <div class="modal-header align-self-center pb-0 " id="modalHeader">
-                <h1 class="modal-title" id="myModalLabel">Oh Hay!</h1>                <!-- TODO Can't Center!! -------------------------------------------->
+                <h1 class="modal-title" id="myModalLabel">Oh Hay!</h1>                
                 
             </div>
             <div class="modal-body pb-0" id="modalBody">
                 <img src="img/twoHorses.jpg" class="img-fluid rounded-3" id="twoHorsesImg" alt="Responsive image">
                 <h3 class="text-center pt-3">Would you mind donating your recyclable bottles for our hay?</h3>
             </div>
-            <div class="modal-footer align-self-center" id="modalFooter">             <!-- TODO Center these buttons -------------------------------------->
+            <div class="modal-footer align-self-center" id="modalFooter">             
                 <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button> 
                 <button type="button" class="btn btn-secondary">Who are you guys?</button>
             </div>
@@ -155,10 +156,13 @@ style="
     </div>
 </div>
 
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
 
 
 
