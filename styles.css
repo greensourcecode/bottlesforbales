@@ -1,62 +1,115 @@
-:root {
+:root {                             /**  Call with background-color: var(--first-color);  */
   --dark-brown: #5c4121;
   --light-brown: #aa7e38;
-  --pinkish: #dbcccb;
+  --khaki: darkkhaki;
   --green: #708a29;
   --grey: #c1c4cd;
-    /**  Call with background-color: var(--first-color);  */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
-
 @font-face {
   font-family: 'Andada Pro', serif;
   src: url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap'); /* ! TODO */
 }
 
-
-
-.container-fluid {
+#bcGreen {
+  background-color: var(--green);
+}
+#bcLightBrown{
   background-color: var(--light-brown);
-  width: 97%;
 }
-
-.container-xl {
-  background-color: var(--dark-brown);
+#bcKhaki{
+  background-color: var(--khaki);
 }
-
-body {                               
-  background-color: var(--green);
-  font-family: 'Andada Pro', serif;
-}
-
-.container {
-  color: var(--dark-brown);
-  background-color: var(--green);
-  border: solid var(--grey);
-  font-family: 'Andada Pro', serif;
-}
-
-#myModal2 {
-  background-color: darkkhaki;
-  color: var(--dark-brown);
+#greenBoarder {
   border: solid var(--green);
 }
 
+
+
+#containerFluid {
+  background-color: var(--light-brown);
+  width: 97%;
+}
+#containerFluidSpecial {
+  width: 100%;
+}
+
+
+
+/* ? https://www.codeply.com/p/0CWffz76Q9 */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {                               
+  font-family: 'Andada Pro', serif;
+}
+
+
+
+
+
+
+
+/* * Modal  ******************************/
+#myModal2 {
+  color: var(--dark-brown);
+  border: solid var(--green);
+}
 #modalHeader {
   text-align: center;
   border-bottom: 0;
   color: black;
 }
-
 #twoHorsesImg {
   border: solid var(--green);
 }
-
 #modalFooter {
   border-top: 0;
 }
-
-#carouselInner {
-  justify-content: center;
-}
+/*****************************************/
