@@ -6,11 +6,7 @@
   --grey: #c1c4cd;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
-@font-face {
-  font-family: 'Andada Pro', serif;
-  src: url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap'); /* ! TODO */
-}
+
 
 #bcGreen {
   background-color: var(--green);
@@ -21,20 +17,43 @@
 #bcKhaki{
   background-color: var(--khaki);
 }
-#greenBoarder {
-  border: solid var(--green);
+
+#darkBrownBoarder {
+  border-color: var(--dark-brown);
 }
+
+
+html {
+  font-family: 'Andada Pro', serif;
+  font-family: 'Rye', cursive;
+}
+
+h1, h4, p {
+  font-family: 'Andada Pro', serif;
+  font-family: 'Rye', cursive;
+  opacity: 100;
+}
+
+h1 {
+  font-weight: bold;
+}
+
 
 
 
 #containerFluid {
   background-color: var(--light-brown);
   width: 97%;
+  opacity: 0.5;
 }
 #containerFluidSpecial {
   width: 100%;
 }
 
+
+#greenBorder {
+  border: solid var(--green);
+}
 
 
 /* ? https://www.codeply.com/p/0CWffz76Q9 */
