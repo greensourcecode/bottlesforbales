@@ -16,3 +16,9 @@
         </div>
     </div>
 </div>
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                Test Modal                                                                        
+            </button>
