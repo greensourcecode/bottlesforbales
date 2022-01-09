@@ -37,12 +37,12 @@ img {
 #containerFluid {
   background-color: var(--light-brown);
   width: 98%;
-  opacity: 0.87;
+  opacity: 0.80;
   
 }
 #containerFluidSpecial {
   width: 100%;
-  opacity: 0.87;
+  opacity: 0.80;
   background-color: var(--khaki);
 }
 
