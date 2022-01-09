@@ -22,10 +22,12 @@ h1, h3, h4 {
   font-family: 'Rye', cursive;
 }
 #h1{
-  font-size: 5rem;
+  font-size:3.5rem;
 }
 p {
   font-weight: bold;
+  font-family: 'Andada Pro', serif;
+  font-size: 1.25rem;
 }
 img {
   opacity: 100;
@@ -34,7 +36,7 @@ img {
 
 #containerFluid {
   background-color: var(--light-brown);
-  width: 95%;
+  width: 98%;
   opacity: 0.87;
   
 }
@@ -44,12 +46,12 @@ img {
   background-color: var(--khaki);
 }
 
-#carouselImage {
-  opacity: 1;
+
+#welcome {
+  background-color: var(--khaki);
+  width: 98%;
+  opacity: 0.87;
 }
-
-
-
 
 
 
