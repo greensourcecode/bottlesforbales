@@ -1,0 +1,18 @@
+<!-- Modal -->
+<div class="modal hide fade border border-dark rounded-3" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" id="greenBoarder">
+        <div class="modal-content" id="bcKhaki"> 
+            <div class="modal-header align-self-center pb-0 " id="modalHeader">
+                <h1 class="modal-title" id="myModalLabel">Oh Hay!</h1>                
+            </div>
+            <div class="modal-body pb-0" id="modalBody">
+                <img src="img/twoHorses.jpg" class="img-fluid rounded-3" id="twoHorsesImg" alt="Responsive image">
+                <h3 class="text-center pt-3">Would you mind donating your recyclable bottles for our hay?</h3>
+            </div>
+            <div class="modal-footer align-self-center" id="modalFooter">             
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button> 
+                <button type="button" class="btn btn-secondary">Who are you guys?</button>
+            </div>
+        </div>
+    </div>
+</div>
