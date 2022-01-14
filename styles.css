@@ -7,13 +7,13 @@
   background-color: var(--light-brown);
 }
 .bgColor-2 {
-  background-color: var(--light-khaki);
+  background-color: var(--khaki);
 }
 #bgColor-1 {
   background-color: var(--light-brown);
 }
 #bgColor-2 {
-  background-color: var(--light-khaki);
+  background-color: var(--khaki);
 }
 
 
@@ -29,7 +29,7 @@ h1, h3, h4, h5, h6 {
 p {
   font-weight: bold;
   font-family: 'Andada Pro', serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 
 }
 
@@ -50,7 +50,7 @@ p {
 
 
 #welcome {
-  background-color: var(--light-brown);
+  background-color: var(--khaki);
   width: 98%;
   opacity: 0.90;
 }
