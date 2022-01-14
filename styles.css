@@ -21,7 +21,7 @@ html {
   font-family: 'Andada Pro', serif;
   font-family: 'Rye', cursive;
 }
-h1, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Andada Pro', serif;
   font-family: 'Rye', cursive;
 }
@@ -32,9 +32,6 @@ p {
   font-size: 0.9rem;
 
 }
-
-
-
 
 #containerFluid {
   background-color: var(--light-brown);
@@ -47,7 +44,6 @@ p {
   width: 98%;
   background-color: var(--khaki);
 }
-
 
 #welcome {
   background-color: var(--khaki);
@@ -71,10 +67,6 @@ p {
 
 
 
-
-body {                               
-  font-family: 'Andada Pro', serif;
-}
 
 
 
