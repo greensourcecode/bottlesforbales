@@ -1,15 +1,19 @@
 :root {                             /**  Call with background-color: var(--first-color);  */
-  --dark-brown: #5c4121;
   --light-brown: #c19a6B;
-  --khaki: #aa7e38;
+  --khaki: #a67e51;
   --blue: #3e6594;
 }
-
-#bcLightBrown{
+.bgColor-1 {
   background-color: var(--light-brown);
 }
-#bcKhaki{
-  background-color: var(--khaki);
+.bgColor-2 {
+  background-color: var(--light-khaki);
+}
+#bgColor-1 {
+  background-color: var(--light-brown);
+}
+#bgColor-2 {
+  background-color: var(--light-khaki);
 }
 
 
@@ -17,40 +21,40 @@ html {
   font-family: 'Andada Pro', serif;
   font-family: 'Rye', cursive;
 }
-h1, h3, h4 {
+h1, h3, h4, h5, h6 {
   font-family: 'Andada Pro', serif;
   font-family: 'Rye', cursive;
 }
 #h1{
-  font-size:3.5rem;
+  font-size:2.5rem;
 }
 p {
   font-weight: bold;
   font-family: 'Andada Pro', serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
+
 }
-img {
-  opacity: 100;
-}
+
+
 
 
 #containerFluid {
   background-color: var(--light-brown);
+  opacity: 0.90;
   width: 98%;
-  opacity: 0.80;
   
 }
 #containerFluidSpecial {
-  width: 100%;
-  opacity: 0.80;
+  opacity: 0.90;
+  width: 98%;
   background-color: var(--khaki);
 }
 
 
 #welcome {
-  background-color: var(--khaki);
+  background-color: var(--light-brown);
   width: 98%;
-  opacity: 0.87;
+  opacity: 0.90;
 }
 
 
