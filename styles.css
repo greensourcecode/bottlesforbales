@@ -4,8 +4,8 @@
   --blue: #3e6594;
 }
 
-body {
-  background-image: url("/img/twofaces.jpg");
+#body {
+  background-image: url("/img/twofaces.jpg") !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
