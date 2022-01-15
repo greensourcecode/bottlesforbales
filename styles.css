@@ -1,26 +1,9 @@
 :root {                             /**  Call with background-color: var(--first-color);  */
   --light-brown: #c19a6B;
-  --khaki: #a67e51;
+  --dark-brown: #a67e51;
   --blue: #3e6594;
 }
-.bgColor-1 {
-  background-color: var(--light-brown);
-}
-.bgColor-2 {
-  background-color: var(--khaki);
-}
-#bgColor-1 {
-  background-color: var(--light-brown);
-}
-#bgColor-2 {
-  background-color: var(--khaki);
-}
 
-
-html {
-  font-family: 'Andada Pro', serif;
-  font-family: 'Rye', cursive;
-}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Andada Pro', serif;
   font-family: 'Rye', cursive;
@@ -30,54 +13,35 @@ p {
   font-weight: bold;
   font-family: 'Andada Pro', serif;
   font-size: 0.9rem;
-
 }
 
-#containerFluid {
+#containerDark {
+  opacity: 0.90;
+  width: 98%;
+  background-color: var(--dark-brown);
+}
+
+#containerDarkWide {
+  opacity: 0.90;
+  width: 100%;
+  background-color: var(--dark-brown);
+}
+
+#containerLight {
   background-color: var(--light-brown);
   opacity: 0.90;
-  width: 98%;
-  
-}
-#containerFluidSpecial {
-  opacity: 0.90;
-  width: 98%;
-  background-color: var(--khaki);
+  width: 96.3%;
 }
 
-#welcome {
-  background-color: var(--khaki);
-  width: 98%;
-  opacity: 0.90;
+#modalContent {
+  background-color: var(--light-brown);
 }
 
-#label1 {
+#textSmall {
   font-size: small;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* * Modal  ******************************/
-
 #modalHeader {
   text-align: center;
   border-bottom: 0;
