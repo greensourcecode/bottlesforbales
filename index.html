@@ -4,7 +4,8 @@
 <!--? ------------------------------------------------------------------ HEAD ----------------------------------------------------------------------------->
 
 <head>
- <!-- Links and meta -->   
+
+    <!-- Links and meta -->   
     <meta charset="utf-8" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
@@ -16,14 +17,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Ed Wagner's Bottles for Bales organization raised over $15,000 for Little Brook Farm Horse Sanctuary in 2021."/>
     <meta name="keywords" content="Bottles for Bales, Horse Sanctuary, Horse Rescue, Recycle" />
-<!-- Title Container -->
-    <div class="container-xxl mb-2 mt-1 rounded-3 border border-dark border-2 bg-gradient" id="containerDark">                                 
-        <div class="row">
-            <div class="col">
-                <h3 class="text-center pt-2" id="h1">BottlesForBales.org 🐎</h3>
+
+    <!-- Title Container / Navbar -->
+      <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container-xxl rounded-3 border border-dark border-2 bg-gradient"  id="containerDark">
+            <a class="navbar-brand" href="./index.html"><h3 class="text-center pt-2" id="h1">🐎</h3></a>
+            <h3 class="text-center pt-2" id="h1">BottlesForBales.org</h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-self-auto" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                            Drop-off Locations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
+
     <!-- Carousel Container-->
     <div class="container-lg mb-2 border border-dark border-2 rounded-3 bg-gradient" id="containerLight">
         <div class="row row-content">
@@ -61,7 +77,8 @@
             </div>
         </div>
     </div>
-<!-- Greeting Container -->
+
+    <!-- Greeting Container -->
     <div class="container-lg mb-2 mt-2 border border-dark rounded-3 bg-gradient border-2" id="containerDark">
         <div class="row">
             <div class="col">
@@ -76,7 +93,9 @@
             </div>
         </div>
     </div>
+
 </head>
+
 <!--?--------------------------------------------------------------- BODY --------------------------------------------------------------------------------->
 <!-- Body / Background Image -->
 <body id="body" class="bg-image" style="background-image: url('img/twofaces.jpg'); height: 100vh; background-repeat: no-repeat; background-attachment: fixed;">
@@ -85,7 +104,7 @@
         <h5 class="text-center pt-2 mt-1">Have bottles ready for pick up?</h5>
         <form>
             <div class="row">
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-md-4">
                     <div class="mb-2">
                         <select name="numCampers" id="numCampers" class="form-control">
                             <option selected="">Select Number of Bags</option>
@@ -113,7 +132,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-md-4">
                     <div class="mb-2">
                         <input type="email" class="form-control" id="name" placeholder="Name">
                     </div>
@@ -121,7 +140,7 @@
                         <input type="password" class="form-control" id="streetAddress" placeholder="Street Address">
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-md-4">
                     <div class="mb-2">
                         <input type="email" class="form-control" id="phoneNumber" placeholder="Phone Number">
                     </div>
