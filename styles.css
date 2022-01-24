@@ -36,6 +36,7 @@ p {
 
 #modalContent {
   background-color: var(--light-brown);
+  opacity: 0.95;
 }
 
 #textSmall {

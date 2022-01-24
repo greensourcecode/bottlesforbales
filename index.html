@@ -18,27 +18,36 @@
     <meta name="description" content="Ed Wagner's Bottles for Bales organization raised over $15,000 for Little Brook Farm Horse Sanctuary in 2021."/>
     <meta name="keywords" content="Bottles for Bales, Horse Sanctuary, Horse Rescue, Recycle" />
 
-    <!-- Title Container / Navbar -->
-      <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container-xxl rounded-3 border border-dark border-2 bg-gradient"  id="containerDark">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container-xxl rounded-3 border border-dark border-2 bg-gradient" id="containerDark">
             <a class="navbar-brand" href="./index.html"><h3 class="text-center pt-2" id="h1">🐎</h3></a>
             <h3 class="text-center pt-2" id="h1">BottlesForBales.org</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse align-self-auto" id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
-                            Drop-off Locations</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
-                                class="fa fa-address-card fa-lg"></i> Contact</a></li>
-                </ul>
-            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mb-1 mt-0 mx-2 border-white" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto pt-2 align-items-center" id="containerDark">
+              <li class="nav-item">
+                <a class="nav-link active align-items-end btn btn-outline-dark mx-2 pt-1 pb-1" href="#" id="containerDark"><strong> Home </strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link align-items-end btn btn-outline-dark mx-2 mt-1 mb-1 pt-1 pb-1" href="./dropoff.html" id="containerDark"><strong> Drop-off Locations </strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link align-items-end btn btn-outline-dark mx-2 pt-1 pb-1" href="./aboutus.html" id="containerDark"><strong> About Us </strong></a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+
+</head>
+
+<!--?--------------------------------------------------------------- BODY --------------------------------------------------------------------------------->
+    <!-- Title Container / Navbar -->
+<body id="body" class="bg-image" style="background-image: url('img/twofaces.jpg'); height: 100vh; background-repeat: no-repeat; background-attachment: fixed;">
+
+
 
     <!-- Carousel Container-->
     <div class="container-lg mb-2 border border-dark border-2 rounded-3 bg-gradient" id="containerLight">
@@ -93,12 +102,7 @@
             </div>
         </div>
     </div>
-
-</head>
-
-<!--?--------------------------------------------------------------- BODY --------------------------------------------------------------------------------->
 <!-- Body / Background Image -->
-<body id="body" class="bg-image" style="background-image: url('img/twofaces.jpg'); height: 100vh; background-repeat: no-repeat; background-attachment: fixed;">
 <!-- Form Container -->
     <div class="container-lg mb-2 border border-2 border-dark rounded-3 bg-gradient" id="containerLight">
         <h5 class="text-center pt-2 mt-1">Have bottles ready for pick up?</h5>
@@ -202,6 +206,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="scripts.js"></script>     
 <!-- End of Page -->
 </html>
