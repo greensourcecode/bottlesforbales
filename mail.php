@@ -10,8 +10,8 @@ $mail_to= 'mitchellfalvo@gmail.com';
 // The Email will go from #######################################
 $mail_from = "mitch@bottlesforbales.org";
 
-// After Submiting The Email Where Need to go back...?
-$go_back = "https://www.google.com/";
+// After Submitting The Email Where Need to go back...?
+$go_back = "https://www.bottlesforbales.org/";
 
 
 if(isset($_POST['send_to_email'])){
