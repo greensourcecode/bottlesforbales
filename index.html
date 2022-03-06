@@ -1,82 +1,104 @@
-<!DOCTYPE html>                                                                       <!-- * Property of Ed Gardner / Bottles for Bales ------------------->
-<html>                                                                                <!-- ? https://bottlesforbales.org ---------------------------------->
-                                                                                      <!-- - Author: Mitchell Falvo; https://github.com/greensourcecode --->
+<!DOCTYPE html> <!-- * Property of Ed Gardner / Bottles for Bales ------------------->
+<html>
+<!-- ? https://bottlesforbales.org ---------------------------------->
+<!-- - Author: Mitchell Falvo; https://github.com/greensourcecode --->
 <!--? ------------------------------------------------------------------ HEAD ----------------------------------------------------------------------------->
 
 <head>
 
-    <!-- Links and meta -->   
+    <!-- Links and meta -->
     <meta charset="utf-8" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Ed Wagner's Bottles for Bales organization raised over $15,000 for Little Brook Farm Horse Sanctuary in 2021." />
+    <meta name="keywords" content="Bottles for Bales, Horse Sanctuary, Horse Rescue, Recycle" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Rye&display=swap" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ed Wagner's Bottles for Bales organization raised over $15,000 for Little Brook Farm Horse Sanctuary in 2021."/>
-    <meta name="keywords" content="Bottles for Bales, Horse Sanctuary, Horse Rescue, Recycle" />
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css">
+
 
     <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-xl rounded-3 border border-dark border-2 bg-gradient" id="containerDark">
-            <a class="navbar-brand" href="./index.html"><h3 class="text-center pt-2" id="h1">🐎</h3></a>
-            <h3 class="text-center pt-2" id="h1">BottlesForBales.org</h3>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse mb-1 mt-0 mx-2 border-white" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto pt-2 align-items-center" id="containerDark">
-              <li class="nav-item">
-                <a class="nav-link active align-items-end btn btn-outline-dark mx-2 pt-1 pb-1" href="#" id="containerDark"><strong> Home </strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link align-items-end btn btn-outline-dark mx-2 mt-1 mb-1 pt-1 pb-1" href="./dropoff.html" id="containerDark"><strong> Drop-off Locations </strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link align-items-end btn btn-outline-dark mx-2 pt-1 pb-1" href="./aboutus.html" id="containerDark"><strong> About Us </strong></a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="./index.html">
+                <img src="img/site-logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mb-1 mt-0 mx-2 border-white" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto pt-2 align-items-center" id="containerDark">
+                    <li class="nav-item">
+                        <a class="nav-link active align-items-end btn btn-outline-dark mx-2 pt-1 pb-1" href="#"
+                            id="containerDark"><strong> Home </strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-items-end btn btn-outline-dark mx-2 mt-1 mb-1 pt-1 pb-1"
+                            href="./dropoff.html" id="containerDark"><strong> Drop-off Locations </strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-items-end btn btn-outline-dark mx-2 pt-1 pb-1" href="./aboutus.html"
+                            id="containerDark"><strong> About Us </strong></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
 </head>
 
-<!--?--------------------------------------------------------------- BODY --------------------------------------------------------------------------------->
-    <!-- Title Container / Navbar -->
-<body id="body" class="bg-image" style="background-image: url('img/twofaces.jpg'); height: 100vh; background-repeat: no-repeat; background-attachment: fixed;">
+<!--?--------------------------------------------------------------- BODY >
+ Title Container / Navbar -->
+
+<body id="body" class="bg-image"
+    style="background-image: url('img/twofaces.jpg'); height: 100vh; background-repeat: no-repeat; background-attachment: fixed;">
 
 
 
     <!-- Carousel Container-->
-    <div class="container-lg mb-2 border border-dark border-2 rounded-3 bg-gradient" id="containerLight">
+    <div class="slider-area container-lg mb-2 border border-dark border-2 rounded-3 bg-gradient" id="containerLight">
         <div class="row row-content">
             <div class="col mx-auto">
-                <div id="carouselExampleIndicators"
-                    class="carousel carousel-dark slide wrap mb-2 mt-2 "
+                <div id="carouselExampleIndicators" class="carousel carousel-dark slide wrap mb-2 mt-2 "
                     data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active btn-dark" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn btn-dark" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active btn-dark" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            class="btn btn-dark" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner" id="carouselInner">
                         <div class="carousel-item active">
-                            <img src="img/4.jpg" class="d-block w-75 h-75 border-dark border-2 mx-auto rounded-3" alt="..." id="carouselImage" />
+                            <img src="img/4.jpg" class="d-block w-75 h-75 border-dark border-2 mx-auto rounded-3"
+                                alt="..." id="carouselImage" />
                         </div>
                         <div class="carousel-item">
-                            <img src="img/2.jpg" class="d-block w-75 h-75 mx-auto rounded-3" alt="..." id="carouselImage" />
+                            <img src="img/2.jpg" class="d-block w-75 h-75 mx-auto rounded-3" alt="..."
+                                id="carouselImage" />
                         </div>
                         <div class="carousel-item">
-                            <img src="img/1.jpg" class="d-block w-75 h-75 mx-auto rounded-3" alt="..." id="carouselImage" />
+                            <img src="img/1.jpg" class="d-block w-75 h-75 mx-auto rounded-3" alt="..."
+                                id="carouselImage" />
                         </div>
                         <div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" id="carouselImage">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" id="carouselImage">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" id="carouselImage">
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next" id="carouselImage">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -88,7 +110,8 @@
     </div>
 
     <!-- Greeting Container -->
-    <div class="container-lg mb-2 mt-2 border border-dark rounded-3 bg-gradient border-2" id="containerDark">
+    <div class="welcome-area container-lg mb-2 mt-2 border border-dark rounded-3 bg-gradient border-2"
+        id="containerDark">
         <div class="row">
             <div class="col">
                 <h5 class="text-center mt-3">Welcome to Bottles for Bales.</h5>
@@ -96,23 +119,30 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col">                                                         <!-- * Explain Bottles for bales ------------------------------------>
+            <div class="col">
+                <!-- * Explain Bottles for bales ------------------------------------>
                 <p>
-                    Ed Wagner's Bottles for Bales has raised over $15,000 for the Little Brook Farm horse sanctuary. If you live in Ballston Lake, Ballston Spa, Clifton Park, Cohoes, Colonie, East Greenbush, Glenville, Kinderhook, Mechanicville, Nassau, Saratoga, or Watervliet, we can pick your bottles up. If not, ask us where our nearest allied recycling facility is. 
+                    Ed Wagner's Bottles for Bales has raised over $15,000 for the Little Brook Farm horse sanctuary. If
+                    you live in Ballston Lake, Ballston Spa, Clifton Park, Cohoes, Colonie, East Greenbush, Glenville,
+                    Kinderhook, Mechanicville, Nassau, Saratoga, or Watervliet, we can pick your bottles up. If not, ask
+                    us where our nearest allied recycling facility is.
                 </p>
             </div>
         </div>
     </div>
-<!-- Body / Background Image -->
-<!-- Form Container -->
-    <div class="container-lg mb-2 border border-2 border-dark rounded-3 bg-gradient" id="containerLight">
+    <!-- Body / Background Image -->
+
+
+
+    <!-- Form Container -->
+    <div class="pickup-form container-lg mb-2 border border-2 border-dark rounded-3 bg-gradient" id="containerLight">
         <h5 class="text-center mt-3">Have bottles ready for pick up?</h5>
         <hr>
-        <form>
+        <form action="mail.php" method="post">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <div class="mb-2">
-                        <select name="numCampers" id="numCampers" class="form-control">
+                        <select name="number_of_bag" id="numCampers" class="form-control">
                             <option selected="">Select Number of Bags</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -120,7 +150,7 @@
                         </select>
                     </div>
                     <div class="mb-2">
-                        <select name="numCampers" id="numCampers" class="form-control">
+                        <select name="select_country" id="numCampers" class="form-control">
                             <option selected="">Select County</option>
                             <option value="1">Ballston Lake</option>
                             <option value="2">Ballston Spa</option>
@@ -140,26 +170,27 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="mb-2">
-                        <input type="email" class="form-control" id="name" placeholder="Name">
+                        <input type="text" class="form-control" name="name" placeholder="Name">
                     </div>
                     <div class="mb-2">
-                        <input type="password" class="form-control" id="streetAddress" placeholder="Street Address">
+                        <input type="text" class="form-control" name="streetAddress" placeholder="Street Address">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="mb-2">
-                        <input type="email" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number">
                     </div>
                     <div class="mb-2">
-                        <input type="password" class="form-control" id="bagLocation" placeholder="Bag Location">
+                        <input type="text" class="form-control" name="bagLocation" placeholder="Bag Location">
                     </div>
                 </div>
-                <div class="col-3 col-md-2 col-lg-1">
-                    <button type="submit" class="btn btn-success mx-2">Submit</button>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <input type="submit" class="btn btn-success mx-2" name="send_to_email" value="Submit">
                 </div>
-                <div class="col-9 p mt-0 pt-0">
+                <div class="col-10 col-md-4 p mt-0 pt-0">
                     <input type="checkbox" class="form-check-input mt-1 mx-3" id="exampleCheck1">
-                    <label class="form-check-label mt-0 mb-0" for="exampleCheck1" id="textSmall">Tell me when you're picking up.</label>
+                    <label class="form-check-label mt-0 mb-0" for="exampleCheck1" id="textSmall">Tell me when you're
+                        picking up.</label>
                     <div class="form-text mt-0 mx-4" id="textSmall">We'll never share your information.</div>
                 </div>
             </div>
@@ -168,19 +199,25 @@
 </body>
 <!--?--------------------------------------------------------------- FOOTER ------------------------------------------------------------------------------->
 <!---->
-<footer>                                              
-    <div class="container-xl mb-1 rounded-3 border border-dark border-2 bg-gradient" id="containerDark" >                                 
+<footer>
+    <div class="footer-area container-xl mb-1 rounded-3 border border-dark border-2 bg-gradient" id="containerDark">
         <div class="row">
             <div class="col-12 text-center">
-                <a  class="btn bi-telephone-fill" href="tel:518-878-8201"><svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                  </svg></a>
-                <a class="btn bi-envelope" href="mailto: edwags65@yahoo.com"><svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                  </svg></a>
-                  <a class="btn bi-facebook" target="_blank" href="https://www.facebook.com/ed.wagner.900"><svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg></a>
+                <a class="btn bi-telephone-fill" href="tel:518-878-8201"><svg width="24" height="24" fill="currentColor"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg></a>
+                <a class="btn bi-envelope" href="mailto: edwags65@yahoo.com"><svg width="24" height="24"
+                        fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg></a>
+                <a class="btn bi-facebook" target="_blank" href="https://www.facebook.com/ed.wagner.900"><svg width="24"
+                        height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg></a>
             </div>
         </div>
     </div>
@@ -189,34 +226,30 @@
 <!-- Modal -->
 <div class="modal hide fade" tabindex="-1" id="introModal">
     <div class="modal-dialog modal-xl border border-2 border-dark rounded-3">
-        <div class="modal-content" id="modalContent"> 
+        <div class="modal-content" id="modalContent">
             <div class="modal-header align-self-center pb-0 ">
-                <h1 class="modal-title text-dark">Oh Hay!</h1>                
+                <h1 class="modal-title text-dark">Oh Hay!</h1>
             </div>
             <div class="modal-body pb-0 align-self-center" id="modalBody">
                 <img src="img/twoHorses.jpg" class="img-fluid rounded-3" id="twoHorsesImg" alt="Responsive image">
                 <h3 class="text-center pt-3 text-dark">Would you mind donating your recyclable bottles for our hay?</h3>
             </div>
-            <div class="modal-footer align-self-center" id="modalFooter">             
-                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button> 
-                <button type="button" class="btn btn-secondary" href="./aboutus.html" >Who are you guys?</button>
+            <div class="modal-footer align-self-center" id="modalFooter">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button>
+                <button type="button" class="btn btn-secondary" href="./aboutus.html">Who are you guys?</button>
             </div>
         </div>
     </div>
 </div>
+
+
 <!-- * Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="scripts.js"></script>     
+<script src="scripts.js"></script>
 <!-- End of Page -->
+
 </html>
-<!--TODO------------------------------------------------------- ROAD-MAP ---------------------------------------------------------------------------------->
-                                    <!--? Implement More Bootstrap Icons                            -->
-                                    <!--? Design Logo                                               -->
-                                    <!--? Center Modal Image in large screens                       -->
-                                    <!--? Add form functionality                                    -->
-                                    <!--? Add about us (little brook) and drop off locations (maps) -->
-                                    <!--? Add google maps of drop off locations                     -->
-                                    <!--* Fix names and general refactor                            -->
-                                    <!--* Add Eds picture                                           -->

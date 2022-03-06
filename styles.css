@@ -1,10 +1,16 @@
-:root {                             /**  Call with background-color: var(--first-color);  */
+:root {
+  /**  Call with background-color: var(--first-color);  */
   --light-brown: #c19a6B;
   --dark-brown: #a67e51;
   --blue: #3e6594;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Andada Pro', serif;
   font-family: 'Rye', cursive;
 }
@@ -15,10 +21,11 @@ p {
   font-size: 0.95rem;
 }
 
-.background-image {                           /*! Doesn't work, inline CSS is used instead.. */
-  background-image: url('img/twofaces.jpg'); 
-  height: 100vh; 
-  background-repeat: no-repeat; 
+.background-image {
+  /*! Doesn't work, inline CSS is used instead.. */
+  background-image: url('img/twofaces.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -44,3 +51,214 @@ p {
 }
 
 
+
+
+/* edit */
+.navbar-expand-md .navbar-nav {
+  flex-direction: row;
+  justify-content: end;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  width: 20%;
+}
+
+#containerDark:hover {
+  background: #ddd aliceblue;
+}
+
+#containerDark {
+  padding: 6px;
+}
+
+.nav-item a {
+  color: #fff !important;
+  background-color: #000 !important;
+  transition: 0.3s;
+  border: 2px solid #000;
+}
+
+.nav-item a:hover {
+  color: #000 !important;
+  background-color: transparent !important;
+}
+
+
+.slider-area {
+  padding: 45px;
+}
+
+
+.welcome-area {
+  padding: 35px !important;
+  text-align: center;
+  margin: 20px auto !important;
+}
+
+.welcome-area h5 {
+  font-size: 30px;
+}
+
+
+
+
+.pickup-form h5 {
+  font-size: 30px;
+}
+
+.pickup-form {
+  padding: 35px;
+}
+
+.pickup-form form {
+  margin-top: 47px;
+}
+
+.pickup-form .mb-2 {
+  margin-bottom: 1.4rem !important;
+}
+
+.pickup-form .btn.btn-success.mx-2 {
+  padding: .75rem 3rem !important;
+  transform: translateX(-7px);
+  color: #fff;
+  background: #000;
+  border: 2px solid #000;
+  transition: 0.3s;
+}
+
+.pickup-form .form-control {
+  padding: .75rem .85rem;
+}
+
+.welcome-area {
+  padding: 34px !important;
+}
+
+.pickup-form {
+  padding: 44px !important;
+}
+
+.pickup-form .btn.btn-success.mx-2:hover {
+  background: transparent;
+  color: #000;
+}
+
+.pickup-form #exampleCheck1 {
+  cursor: pointer;
+}
+
+.pickup-form label#textSmall {
+  cursor: pointer;
+}
+
+.navbar-brand img {
+  width: 80%;
+  margin: 10px;
+}
+
+footer a {
+  background: #000 !important;
+  color: #fff !important;
+  border-radius: 50px !important;
+  padding: 10px 11px !important;
+  border: 2px solid #000 !important;
+  ;
+  transition: 0.3s !important;
+  ;
+  margin: 0 7px;
+}
+
+footer a:hover {
+  background: transparent !important;
+  color: #000 !important;
+  border-color: #000 !important;
+}
+
+
+
+
+.drop-off {
+  text-align: center;
+  padding: 25px !important;
+}
+
+.location {
+  text-align: center;
+  padding: 25px !important;
+}
+
+.card-title p {
+  margin: 10px 0;
+  font-family: 'Rye', cursive;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+footer #containerDark {
+  padding: 17px;
+}
+
+.drop-off h5 {
+  font-size: 25px;
+}
+
+.drop-off p {
+  margin: 0 !important;
+  margin-top: 5px !important;
+}
+
+.location h5 {
+  font-size: 25px;
+}
+
+.card-title {
+  margin-bottom: 0 !important;
+}
+
+.pd-25 {
+  padding: 25px !important;
+}
+
+#modalFooter .btn-success {
+  background: transparent;
+  border: 2px solid #000;
+  color: #000;
+  transition: 0.3s;
+}
+
+#modalFooter .btn-success:hover {
+  background: #000;
+  color: #fff;
+}
+
+#modalFooter .btn-secondary {
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#modalFooter .btn-secondary:hover {
+
+  background: transparent;
+}
+
+#introModal {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 1055;
+  display: none;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  transform: translateY(-50%);
+}
