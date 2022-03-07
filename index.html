@@ -1,8 +1,10 @@
-<!DOCTYPE html> <!-- * Property of Ed Gardner / Bottles for Bales ------------------->
+ <!-- * Property of Ed Gardner / Bottles for Bales ------------------->
+<!DOCTYPE html>
 <html>
-<!-- ? https://bottlesforbales.org ---------------------------------->
-<!-- - Author: Mitchell Falvo; https://github.com/greensourcecode --->
-<!--? ------------------------------------------------------------------ HEAD ----------------------------------------------------------------------------->
+<!-- https://bottlesforbales.org ---------------------------------->
+<!-- Author: Mitchell Falvo; https://github.com/greensourcecode --->
+
+<!--? HEAD -->
 
 <head>
 
@@ -25,11 +27,12 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="responsive.css">
 
+<!--? NAVBAR -->
 
     <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-xl rounded-3 border border-dark border-2 bg-gradient" id="containerDark">
             <a class="navbar-brand" href="./index.html">
-                <img src="img/site-logo.svg" alt="">
+                <img src="img/site-logo.svg" alt="Bottles for Bales" >
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
@@ -56,11 +59,9 @@
 
 </head>
 
-<!--?--------------------------------------------------------------- BODY >
- Title Container / Navbar -->
+<!--? BODY  -->
 
-<body id="body" class="bg-image"
-    style="background-image: url('img/twofaces.jpg'); height: 100vh; background-repeat: no-repeat; background-attachment: fixed;">
+<body id="body" class="bg-image" style="background-image: url('img/twofaces.jpg'); height: 100vh; background-repeat: no-repeat; background-attachment: fixed;">
 
     <!-- Greeting Container -->
     <div class="welcome-area container-lg mb-2 mt-2 border border-dark rounded-3 bg-gradient border-2"
@@ -77,8 +78,9 @@
                 <p>
                     Ed Wagner's Bottles for Bales has raised over $15,000 for the Little Brook Farm horse sanctuary. If
                     you live in Ballston Lake, Ballston Spa, Clifton Park, Cohoes, Colonie, East Greenbush, Glenville,
-                    Kinderhook, Mechanicville, Nassau, Saratoga, or Watervliet, we can pick your bottles up. If not, ask
-                    us where our nearest allied recycling facility is.
+                    Kinderhook, Mechanicville, Nassau, Saratoga, or Watervliet, we can pick your bottles up. The only thing 
+                    we ask is that you have at least two garbage bags of bottles for pick ups. If you are willing to drop your
+                    bottles off, check out our <a href="./dropoff.html"> drop off locations.</a>
                 </p>
             </div>
         </div>
@@ -129,13 +131,8 @@
         </div>
     </div>
 
-
-    <!-- Body / Background Image -->
-
-
-
     <!-- Form Container -->
-    <div class="pickup-form container-lg mb-2 border border-2 border-dark rounded-3 bg-gradient" id="containerLight">
+    <!-- <div class="pickup-form container-lg mb-2 border border-2 border-dark rounded-3 bg-gradient" id="containerLight">
         <h5 class="text-center mt-3">Have bottles ready for pick up?</h5>
         <hr>
         <form action="mail.php" method="post">
@@ -195,10 +192,12 @@
                 </div>
             </div>
         </form>
-    </div>
+    </div> -->
+
 </body>
-<!--?--------------------------------------------------------------- FOOTER ------------------------------------------------------------------------------->
-<!---->
+
+<!--? FOOTER -->
+
 <footer>
     <div class="footer-area container-xl mb-1 rounded-3 border border-dark border-2 bg-gradient" id="containerDark">
         <div class="row">
@@ -222,7 +221,8 @@
         </div>
     </div>
 </footer>
-<!--?------------------------------------------------------------- APPENDIX ------------------------------------------------------------------------------->
+
+<!--? APPENDIX -->
 <!-- Modal -->
 <div class="modal hide fade" tabindex="-1" id="introModal">
     <div class="modal-dialog modal-xl border border-2 border-dark rounded-3">
@@ -236,7 +236,7 @@
             </div>
             <div class="modal-footer align-self-center" id="modalFooter">
                 <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sure!</button>
-                <button type="button" class="btn btn-secondary" href="./aboutus.html">Who are you guys?</button>
+                <a type="button" class="btn btn-secondary" href="./aboutus.html">Who are you guys?</a>
             </div>
         </div>
     </div>
